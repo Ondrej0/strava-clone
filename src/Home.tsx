@@ -6,8 +6,8 @@ const Home = () => {
             <div className="card">
                 <h1 className="title">Ondrej's Pal</h1>
                 <nav className="nav-container">
-                    <a href="/add-run" className="nav-link">Add Run</a>
-                    <a href="/runs" className="nav-link">Runs</a>
+                    <a href="/strava-clone/#/add-run" className="nav-link">Add Run</a>
+                    <a href="/strava-clone/#/runs" className="nav-link">Runs</a>
                 </nav>
                 <section className="section">
                     <h2>Welcome!</h2>
