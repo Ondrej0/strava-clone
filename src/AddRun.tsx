@@ -6,7 +6,7 @@ import './AddRun.css';
 
 const AddRun = () => {
   const [map, setMap] = useState<L.Map | null>(null);
-  const [route, setRoute] = useState<[number, number][]>([]);
+  const [_, setRoute] = useState<[number, number][]>([]);
   const [watchId, setWatchId] = useState<number | null>(null);
   const [distance, setDistance] = useState<number>(0);
   const [tracking, setTracking] = useState<boolean>(false);
