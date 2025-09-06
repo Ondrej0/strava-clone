@@ -6,7 +6,7 @@ import Runs from './Runs';
 function App() {
   return (
     <Routes>
-      <Route path="/strava-clone/#" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/strava-clone/#/add-run" element={<AddRun />} />
       <Route path="/strava-clone/#/runs" element={<Runs />} />
     </Routes>
