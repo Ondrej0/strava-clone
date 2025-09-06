@@ -1,0 +1,7 @@
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh; /* ensures it fills the full height */
+  width: 100%;
+}
