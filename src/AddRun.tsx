@@ -170,7 +170,7 @@ const AddRun = () => {
         <p>Distance: {(distance / 1000).toFixed(2)} km</p>
         <p>Time: {formatTime(time)}</p>
       </div>
-      <button onClick={() => navigate('/strava-clone/#')}>⬅ Back Home</button>
+      <button onClick={() => navigate('/')}>⬅ Back Home</button>
     </div>
   );
 };
