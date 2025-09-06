@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { useNavigate } from 'react-router-dom';
 import './Runs.css';
 
 const Runs = () => {
   const [runs, setRuns] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
   const BIN_ID = "68bb4696ae596e708fe3f137";
   const MASTER_KEY = "$2a$10$Nm3KfsWepRLgzqkGmoZxGODIbXuck65ARDGAichqW1i1d2ab9/ta2";
@@ -81,7 +83,7 @@ const Runs = () => {
         ) : (
           <p>No runs found.</p>
         )}
-        <a href="/" className="back-link">⬅ Back Home</a>
+         <button onClick={() => navigate('/')}>⬅ Back Home</button>
       </div>
     </div>
   );
