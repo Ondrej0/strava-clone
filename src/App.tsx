@@ -7,8 +7,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/strava-clone/#/add-run" element={<AddRun />} />
-      <Route path="/strava-clone/#/runs" element={<Runs />} />
+      <Route path="add-run" element={<AddRun />} />
+      <Route path="runs" element={<Runs />} />
     </Routes>
   );
 }
